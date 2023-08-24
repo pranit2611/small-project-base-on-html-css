@@ -1,0 +1,202 @@
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color:#ffa600;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: sticky;
+}
+
+nav {
+    background-color: #070202;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    top: 0%;
+    /* position: sticky; */
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+.anime{
+width: 100%;
+height: 500px;
+position: absolute;
+display: flex;
+transform: translate(-50%,-50%);
+left:50%;
+margin-top: 14%;
+background-image: url(new1.jpg);
+background-size:100%;
+animation: slider 9s infinite linear;
+}
+  
+@keyframes slider {
+    0%{ background-image: url(new1.jpg);}
+    35%{ background-image: url(g.jpg);}
+    75%{ background-image: url(g2.jpg);}
+}
+
+
+main {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color:transparent;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    text-align: center;
+    margin-top:35%;
+    width: 100%;
+   height:1000px ;
+   margin-top: 110%;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #555;
+}
+.last{
+
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    display: flex;
+    transform: translate(-50%,-50%);
+    left:50%;
+    margin-top: 160%;
+    /* background-image: url(new1.jpg); */
+    background-size:100%;
+    /* margin-top: 500%; */
+    border: #070202 5px;
+
+}
+.rohan{
+
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    display: flex;
+    transform: translate(-50%,-50%);
+    left:50%;
+    margin-top: 180%;
+    /* background-image: url(new1.jpg); */
+    background-size:100%;
+    /* margin-top: 500%; */
+    border: #070202 5px;
+}
+.rohit{
+    width: 200%;
+    height: 500px;
+    position: absolute;
+    display: flex;
+    transform: translate(-50%,-50%);
+    left:50%;
+    margin-top: 220%;
+    /* background-image: url(new1.jpg); */
+    background-size:100%;
+    /* margin-top: 500%; */
+    border: #070202 5px;
+    display: flex;
+    justify-content: center;
+}
+.adi{
+    width: 200%;
+    height: 500px;
+    position: absolute;
+    display: flex;
+    transform: translate(-50%,-50%);
+    left:50%;
+    margin-top: 230%;
+    /* background-image: url(new1.jpg); */
+    background-size:100%;
+    /* margin-top: 500%; */
+    border: #070202 5px;
+    display: flex;
+    justify-content: center;
+}
+.rohanJ{
+    width: 100%;
+    height: 1000%;
+    position: absolute;
+    display: flex;
+    transform: translate(-50%,-50%);
+    left:50%;
+    margin-top: 800%;
+    /* background-image: url(new1.jpg); */
+    background-size:100%;
+    /* margin-top: 500%; */
+    border: #070202 5px;
+    background-color: #070202;
+    display: flex;
+    justify-content: center;
+}
+.golu{
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+    display: flex;
+    transform: translate(-50%,-50%);
+    left:50%;
+    margin-top: 2000%;
+    /* background-image: url(new1.jpg); */
+    background-size:100%;
+    /* margin-top: 500%; */
+    border: #070202 5px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
